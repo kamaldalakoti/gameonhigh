@@ -1,1 +1,1 @@
-web: gunicorn Gaming.wsgi --log-file -
+web: gunicorn gamingonloop.wsgi --log-file -

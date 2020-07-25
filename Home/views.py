@@ -22,9 +22,11 @@ def Registration(request):
     return render(request, 'registration.html')    
 def about(request):
     return render(request, 'about.html')    
-
 def playerlist(request):
     data = signup.objects.all()
     go = {'data':data }
 
     return render(request, 'playerlist.html', go )
+def players(request):
+
+    return render(request, 'player.html' )

@@ -1,4 +1,3 @@
-{% block title %}List{% endblock title %}
 <section class="text-gray-700 body-font">
     <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         {% for item in data %}
@@ -7,9 +6,9 @@
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Name :{{item.Name}} </h1>
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Phone : {{item.Phone}}</h1>
             <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">PubgID : {{item.PubgID}} </h1>
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">City : {{item.City}} </h1>
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">District : {{item.District}}</h1>
-            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">State : {{item.State}}</h1>
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">name : {{item.City}} </h1>
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">name : {{item.District}}</h1>
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">name : {{item.State}}</h1>
         </div>
         {% endfor %}
     </div>
